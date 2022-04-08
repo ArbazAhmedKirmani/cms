@@ -11,7 +11,7 @@ const Website = () => {
       clearTimeout(timeoout);
     };
   }, []);
-  useEffect;
+
   return (
     <div>
       <div>
@@ -54,7 +54,7 @@ const Website = () => {
                   <a href="index.html">Eagle Stitches</a>
                 </h1>
                 {/* Uncomment below if you prefer to use an image logo */}
-                {/* <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
+                {/* <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=''="" class="img-fluid"></a>*/}
                 <nav id="navbar" className="navbar">
                   <ul>
                     <li>
@@ -139,9 +139,9 @@ const Website = () => {
                   <i className="bi bi-list mobile-nav-toggle" />
                 </nav>
                 <div style={{ display: "flex" }}>
-                  <button class="button button1">LOGIN</button>
+                  <button className="button button1">LOGIN</button>
                   <div className="btn-divider"></div>
-                  <button class="button button2">REGISTER</button>
+                  <button className="button button2">REGISTER</button>
                 </div>
                 {/* .navbar */}
               </div>
@@ -174,7 +174,7 @@ const Website = () => {
                       <img
                         src="assets/img/about.jpg"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                     </div>
                     <div
@@ -324,42 +324,42 @@ const Website = () => {
                       <img
                         src="assets/img/clients/client-1.png"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                     </div>
                     <div className="col-lg-2 col-md-4 col-6">
                       <img
                         src="assets/img/clients/client-2.png"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                     </div>
                     <div className="col-lg-2 col-md-4 col-6">
                       <img
                         src="assets/img/clients/client-3.png"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                     </div>
                     <div className="col-lg-2 col-md-4 col-6">
                       <img
                         src="assets/img/clients/client-4.png"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                     </div>
                     <div className="col-lg-2 col-md-4 col-6">
                       <img
                         src="assets/img/clients/client-5.png"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                     </div>
                     <div className="col-lg-2 col-md-4 col-6">
                       <img
                         src="assets/img/clients/client-6.png"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                     </div>
                   </div>
@@ -387,7 +387,7 @@ const Website = () => {
                           <i className="bx bxl-dribbble" />
                         </div>
                         <h4>
-                          <a href>Hat Digitizing</a>
+                          <a>Hat Digitizing</a>
                         </h4>
                         <p>
                           Our immensely skilled and artistically profound group
@@ -408,7 +408,7 @@ const Website = () => {
                           <i className="bx bx-file" />
                         </div>
                         <h4>
-                          <a href>Simple LOGO Digitizing</a>
+                          <a>Simple LOGO Digitizing</a>
                         </h4>
                         <p>
                           Digitizing a logo for embroidery is the process of
@@ -430,7 +430,7 @@ const Website = () => {
                           <i className="bx bx-tachometer" />
                         </div>
                         <h4>
-                          <a href>Puff Digitizing</a>
+                          <a>Puff Digitizing</a>
                         </h4>
                         <p>
                           In order to be familiar with what is puff digitizing,
@@ -452,7 +452,7 @@ const Website = () => {
                           <i className="bx bx-world" />
                         </div>
                         <h4>
-                          <a href>Towel Digitizing</a>
+                          <a>Towel Digitizing</a>
                         </h4>
                         <p>
                           Towel Embroidery is a popular art in stitching
@@ -470,7 +470,7 @@ const Website = () => {
                           <i className="bx bx-slideshow" />
                         </div>
                         <h4>
-                          <a href>Sleeves Digitizing</a>
+                          <a>Sleeves Digitizing</a>
                         </h4>
                         <p>
                           Now you can have amazingly well-crafted sleeves
@@ -489,7 +489,7 @@ const Website = () => {
                           <i className="bx bx-arch" />
                         </div>
                         <h4>
-                          <a href>Patch Digitizing</a>
+                          <a>Patch Digitizing</a>
                         </h4>
                         <p>
                           We are experts in making patches. You can visit our
@@ -548,7 +548,7 @@ const Website = () => {
                       <img
                         src="assets/img/portfolio/portfolio-1.jpg"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                       <div className="portfolio-info">
                         <h4>App 1</h4>
@@ -574,7 +574,7 @@ const Website = () => {
                       <img
                         src="assets/img/portfolio/portfolio-2.jpg"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                       <div className="portfolio-info">
                         <h4>Web 3</h4>
@@ -600,7 +600,7 @@ const Website = () => {
                       <img
                         src="assets/img/portfolio/portfolio-3.jpg"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                       <div className="portfolio-info">
                         <h4>App 2</h4>
@@ -626,7 +626,7 @@ const Website = () => {
                       <img
                         src="assets/img/portfolio/portfolio-4.jpg"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                       <div className="portfolio-info">
                         <h4>Card 2</h4>
@@ -652,7 +652,7 @@ const Website = () => {
                       <img
                         src="assets/img/portfolio/portfolio-5.jpg"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                       <div className="portfolio-info">
                         <h4>Web 2</h4>
@@ -678,7 +678,7 @@ const Website = () => {
                       <img
                         src="assets/img/portfolio/portfolio-6.jpg"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                       <div className="portfolio-info">
                         <h4>App 3</h4>
@@ -704,7 +704,7 @@ const Website = () => {
                       <img
                         src="assets/img/portfolio/portfolio-7.jpg"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                       <div className="portfolio-info">
                         <h4>Card 1</h4>
@@ -730,7 +730,7 @@ const Website = () => {
                       <img
                         src="assets/img/portfolio/portfolio-8.jpg"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                       <div className="portfolio-info">
                         <h4>Card 3</h4>
@@ -756,7 +756,7 @@ const Website = () => {
                       <img
                         src="assets/img/portfolio/portfolio-9.jpg"
                         className="img-fluid"
-                        alt
+                        alt=""
                       />
                       <div className="portfolio-info">
                         <h4>Web 3</h4>
@@ -909,7 +909,7 @@ const Website = () => {
                       data-aos="zoom-in"
                     >
                       <div className="member">
-                        <img src="assets/img/team/team-1.jpg" alt />
+                        <img src="assets/img/team/team-1.jpg" alt="" />
                         <h4>Walter White</h4>
                         <span>Chief Executive Officer</span>
                         <p>
@@ -918,16 +918,16 @@ const Website = () => {
                           qui aut aut aut
                         </p>
                         <div className="social">
-                          <a href>
+                          <a>
                             <i className="bi bi-twitter" />
                           </a>
-                          <a href>
+                          <a>
                             <i className="bi bi-facebook" />
                           </a>
-                          <a href>
+                          <a>
                             <i className="bi bi-instagram" />
                           </a>
-                          <a href>
+                          <a>
                             <i className="bi bi-linkedin" />
                           </a>
                         </div>
@@ -938,7 +938,7 @@ const Website = () => {
                       data-aos="zoom-in"
                     >
                       <div className="member">
-                        <img src="assets/img/team/team-2.jpg" alt />
+                        <img src="assets/img/team/team-2.jpg" alt="" />
                         <h4>Sarah Jhinson</h4>
                         <span>Product Manager</span>
                         <p>
@@ -946,16 +946,16 @@ const Website = () => {
                           repellendus. In architecto rerum rerum temporibus
                         </p>
                         <div className="social">
-                          <a href>
+                          <a>
                             <i className="bi bi-twitter" />
                           </a>
-                          <a href>
+                          <a>
                             <i className="bi bi-facebook" />
                           </a>
-                          <a href>
+                          <a>
                             <i className="bi bi-instagram" />
                           </a>
-                          <a href>
+                          <a>
                             <i className="bi bi-linkedin" />
                           </a>
                         </div>
@@ -966,7 +966,7 @@ const Website = () => {
                       data-aos="zoom-in"
                     >
                       <div className="member">
-                        <img src="assets/img/team/team-3.jpg" alt />
+                        <img src="assets/img/team/team-3.jpg" alt="" />
                         <h4>William Anderson</h4>
                         <span>CTO</span>
                         <p>
@@ -974,16 +974,16 @@ const Website = () => {
                           consequuntur qui porro et laborum toro des clara
                         </p>
                         <div className="social">
-                          <a href>
+                          <a>
                             <i className="bi bi-twitter" />
                           </a>
-                          <a href>
+                          <a>
                             <i className="bi bi-facebook" />
                           </a>
-                          <a href>
+                          <a>
                             <i className="bi bi-instagram" />
                           </a>
-                          <a href>
+                          <a>
                             <i className="bi bi-linkedin" />
                           </a>
                         </div>
@@ -1198,7 +1198,7 @@ const Website = () => {
                         Tamen quem nulla quae legam multos aute sint culpa legam
                         noster magna
                       </p>
-                      <form action method="post">
+                      <form method="post">
                         <input type="email" name="email" />
                         <input type="submit" defaultValue="Subscribe" />
                       </form>
