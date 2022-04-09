@@ -2,8 +2,13 @@ import React, { Fragment, useState, useEffect } from "react";
 
 const Website = () => {
   const [loading, setLoading] = useState(true);
+  const [disableMessage, setDisableMessage] = useState(false);
 
   useEffect(() => {
+    if (
+      Intl.DateTimeFormat().resolvedOptions().timeZone.split("/")[0] === "Asia"
+    )
+      setDisableMessage(true);
     let timeoout = setTimeout(() => {
       setLoading(false);
     }, 1000);
@@ -135,14 +140,15 @@ const Website = () => {
                         Contact
                       </a>
                     </li>
+                    <li>
+                      <button className="button button1">LOGIN</button>
+                      {/* <div className="btn-divider"></div> */}
+                      <button className="button button2">REGISTER</button>
+                    </li>
                   </ul>
                   <i className="bi bi-list mobile-nav-toggle" />
                 </nav>
-                <div style={{ display: "flex" }}>
-                  <button className="button button1">LOGIN</button>
-                  <div className="btn-divider"></div>
-                  <button className="button button2">REGISTER</button>
-                </div>
+                <div style={{ display: "flex" }}></div>
                 {/* .navbar */}
               </div>
             </header>
@@ -1095,7 +1101,11 @@ const Website = () => {
                           </div>
                         </div>
                         <div className="text-center">
-                          <button type="submit">Send Message</button>
+                          {!disableMessage ? (
+                            <button type="submit">Send Message</button>
+                          ) : (
+                            <h5>Sorry! you can't send us Messages</h5>
+                          )}
                         </div>
                       </form>
                     </div>
@@ -1112,7 +1122,7 @@ const Website = () => {
                   <div className="row">
                     <div className="col-lg-4 col-md-6">
                       <div className="footer-info">
-                        <h3>Day</h3>
+                        <h3>Eagle Stitches</h3>
                         <p>
                           A108 Adam Street <br />
                           NY 535022, USA
@@ -1210,7 +1220,7 @@ const Website = () => {
                 <div className="copyright">
                   © Copyright
                   <strong>
-                    <span>Day</span>
+                    <span> Eagle Stitches</span>
                   </strong>
                   . All Rights Reserved
                 </div>
@@ -1219,8 +1229,7 @@ const Website = () => {
                   {/* You can delete the links only if you purchased the pro version. */}
                   {/* Licensing information: https://bootstrapmade.com/license/ */}
                   {/* Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/day-multipurpose-html-template-for-free/ */}
-                  Designed by{" "}
-                  <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                  Designed by <a href="https://bootstrapmade.com/">YGen</a>
                 </div>
               </div>
             </footer>
